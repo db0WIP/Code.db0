@@ -25,25 +25,31 @@ PHP script display it in a pretty and smart way!
 
 * Install Code.db0
 
-    wget https://github.com/db0company/Code.db0/zipball/master
+```bash
+    wget "https://github.com/db0company/Code.db0/zipball/master"
     unzip Code.db0.zip
     rm Code.db0.zip
     cd Code.db0/
+```
 
 * Install Twitter Bootstrap
 
-    wget http://twitter.github.com/bootstrap/assets/bootstrap.zip
+```bash
+    wget "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
     unzip bootstrap.zip
     rm bootstrap.zip
+```
 
 * Install JQuery
 
+```bash
     wget "http://code.jquery.com/jquery-latest.min.js"
     mv jquery-latest.min.js jquery.js
+```
 
-* (Optionnal) Choose a logo and a favicon
+* _(Optionnal)_ Choose a logo and a favicon
 
-* Edit the **conf.php** file
+* Edit the `conf.php` file
 
 * Open your new builted website on your favorite browser and enjoy your projects!
 
