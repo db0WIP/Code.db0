@@ -1,0 +1,13 @@
+{
+    "name": "db0company/code-db0",
+    "license": "Apache-2.0",
+    "type": "project",
+    "description": "Simple web based code viewer in PHP",
+    "require": {
+        "components/jquery": "1.9.*",
+        "twitter/bootstrap": "2.3.*"
+    },
+    "config": {
+        "component-dir": "vendor"
+    }
+}

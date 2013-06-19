@@ -1,5 +1,6 @@
 #*#
 *~
 projects/
-bootstrap/
-jquery.js
+
+# Vendors
+vendor/*
