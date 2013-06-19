@@ -23,8 +23,8 @@ $author_website = 'http://db0.fr/';
 // Paths
 
 $projects_path = './projects/';
-$bootstrap_path = './bootstrap/';
-$jquery_path = './jquery.js';
+$bootstrap_path = './vendor/twitter/bootstrap/bootstrap/';
+$jquery_path = './vendor/jquery/jquery.js';
 
 // Logo and Favicon
 

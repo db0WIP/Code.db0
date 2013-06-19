@@ -23,28 +23,17 @@ PHP script display it in a pretty and smart way!
 
 ## Usage
 
+* Get composer, the dependency manager
+
+```bash
+    curl -sS https://getcomposer.org/installer | php
+```
+
 * Install Code.db0
 
 ```bash
-    wget "https://github.com/db0company/Code.db0/zipball/master"
-    unzip Code.db0.zip
-    rm Code.db0.zip
-    cd Code.db0/
-```
-
-* Install Twitter Bootstrap
-
-```bash
-    wget "http://twitter.github.com/bootstrap/assets/bootstrap.zip"
-    unzip bootstrap.zip
-    rm bootstrap.zip
-```
-
-* Install JQuery
-
-```bash
-    wget "http://code.jquery.com/jquery-latest.min.js"
-    mv jquery-latest.min.js jquery.js
+    ./composer.phar create-project db0company/code-db0
+    cd code-db0
 ```
 
 * _(Optionnal)_ Choose a logo and a favicon
@@ -57,13 +46,13 @@ PHP script display it in a pretty and smart way!
 ## Copyright/License
 
      Copyright 2012 Barbara Lepage
-  
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-  
+
          http://www.apache.org/licenses/LICENSE-2.0
-  
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
